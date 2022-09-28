@@ -5,6 +5,11 @@ body{
     background-attachment: fixed;
     
 }
+.container__entrenamientos{
+    margin: 0 auto;
+    width: 1200px;
+    color: aliceblue;
+}
 .container{
     width: 800px;
     height: 200px;

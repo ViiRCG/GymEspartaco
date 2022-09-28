@@ -1,8 +1,4 @@
-.container__entrenamientos{
-    margin: 0 auto;
-    width: 1200px;
-    color: aliceblue;
-}
+
 .header{
     display: flex;
     flex-wrap: wrap;
