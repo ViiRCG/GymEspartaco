@@ -10,7 +10,17 @@
     border-radius: 5px;
     
 }
+.videos{
+    width: 68%;
+    border: 1px solid rgb(0, 255, 102);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
 .videos__title{
+    
     background-color: rgba(218, 218, 218, 0.705);
     border-radius: 5px;
     text-align: center;
@@ -18,6 +28,14 @@
     height: 70px;
     margin-bottom: 10px;
     
+}
+.videos__main{
+    border: 1px solid blue;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(218, 218, 218, 0.372);
+    border-radius: 5px;
 }
 .galeria__title{
     background-color: rgba(218, 218, 218, 0.705);
@@ -30,7 +48,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
     text-decoration: underline;
-    font-size: 3rem;
+    
+    margin-top: 10px;
+    font-size: 2rem;
 }
 .main{
     width: 100%;
@@ -64,11 +84,19 @@
     height: 100px;
 }
 .horario__tabla{
-    border: 1px solid grey;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 20px;
     width: 100%;
     border-collapse: collapse;
+    color:aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.horario__tabla th, .horario__tabla td {
-    border: 1px solid grey;
+.horario__tabla-cabecera{
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+.horario__tabla tr, .horario__tabla td {
+    border: 1px solid rgb(255, 255, 255);
     font-size: 1.1rem;
 }
